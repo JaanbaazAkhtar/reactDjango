@@ -1,0 +1,35 @@
+{
+  "name": "react-django",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000D\u0000j\u0000a\u0000n\u0000g\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./reactDjango/frontend/src/index.js--output ./reactDjango/frontent/static/frontend.main.js",
+    "build": "webpack --mode production ./reactDjango/frontend/src/index.js--output ./reactDjango/frontent/static/frontend.main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaanbaazAkhtar/reactDjango.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaanbaazAkhtar/reactDjango/issues"
+  },
+  "homepage": "https://github.com/JaanbaazAkhtar/reactDjango#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
